@@ -58,9 +58,6 @@ http://localhost:8000
 The project uses the Our World in Data CO2 emissions dataset, which can be downloaded from:
 [CO2 Data Repository](https://github.com/owid/co2-data)
 
-## License
-
-This project is licensed under CC BY 4.0
 
 ## Acknowledgments
 
