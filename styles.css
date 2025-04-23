@@ -151,11 +151,20 @@ ul {
 }
 
 footer {
-    margin-top: 50px;
-    padding-top: 20px;
-    border-top: 1px solid #ddd;
-    color: #7f8c8d;
-    font-size: 14px;
+    text-align: left;
+    padding: 20px 0;
+    margin-top: 40px;
+    color: #666;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .team-names {
+    color: #666;
+    font-weight: 500;
+    margin: 8px 0;
 }
 
 /* Energy Content Pages */
