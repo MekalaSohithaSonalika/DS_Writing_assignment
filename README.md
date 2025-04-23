@@ -1,4 +1,3 @@
-# DS_Writing_assignment
 # Global Energy Review 2025
 
 An interactive visualization of global CO2 emissions and energy consumption trends from 1750-2023.
