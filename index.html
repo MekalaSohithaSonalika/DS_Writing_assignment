@@ -14,13 +14,17 @@
         <header>
             <div class="header-content">
                 <div class="header-left">
-                    <h1>Global Energy Review 2025</h1>
+                    <h1>Global Energy Review</h1>
                 </div>
                 <div class="header-right">
-                    <button id="coalBtn">Global</button>
-                    <button id="naturalGasBtn">India</button>
+                    <div>
+                        <div class="button-container">
+                            <button id="coalBtn">Global</button>
+                            <button id="naturalGasBtn">India</button>
+                        </div>
+                        <div class="tab-hint">👆 Click these tabs to explore data by region!</div>
+                    </div>
                 </div>
-                <div class="tab-hint">👆 Click these tabs to explore data by region!</div>
             </div>
         </header>
 
@@ -71,12 +75,9 @@
                     </p>
 
                     <h5>Supporting Evidence:</h5>
-                    <ul>
-                        <li>Historical growth rates in renewable energy deployment over past five years</li>
-                        <li>Declining levelized cost of energy for solar and wind compared to fossil fuels</li>
-                        <li>Increasing policy mandates for renewable energy adoption</li>
-                        <li>Growth patterns in global energy demand that outpace renewable capacity additions</li>
-                    </ul>
+                    <div class="interactive-container">
+                        <iframe class="chart-iframe" src="co2_gdp_comparison.html"></iframe>
+                    </div>
                     <p>
                         United States, Germany, United Kingdom: These countries show strong negative correlations between GDP per capita and CO₂ emissions per capita. This indicates decoupling — their economies grew while per capita emissions declined.</p>
                     <p>
@@ -109,12 +110,9 @@
                     </blockquote>
                     
                     <h5>Supporting Evidence:</h5>
-                    <ul>
-                        <li>Disparate economic growth projections between developed and developing regions</li>
-                        <li>Differential access to low-carbon technologies and financing</li>
-                        <li>Historical patterns of emissions intensity during industrialization phases</li>
-                        <li>Current policy commitments and nationally determined contributions</li>
-                    </ul>
+                    <div class="interactive-container1">
+                        <iframe class="chart-iframe1" src="Share_co2.html"></iframe>
+                    </div>
 
                     <blockquote class="hypothesis-statement">
                         <p>High-income countries: CO₂ Share Trend Slope = -0.3354 (% per year)</p>
@@ -147,12 +145,9 @@
                     </blockquote>
                     
                     <h5>Supporting Evidence:</h5>
-                    <ul>
-                        <li>Current technology readiness levels across different sectors</li>
-                        <li>Capital stock turnover rates for electricity vs. transportation infrastructure</li>
-                        <li>Cost differentials for decarbonization across sectors</li>
-                        <li>Policy emphasis on electricity sector transformation compared to other sectors</li>
-                    </ul>
+                    <div class="interactive-container3">
+                        <img src="Cor.co2.png" alt="CO2 Correlation Analysis" class="evidence-image">
+                    </div>
                     <p>
                         1 means perfect positive correlation
                     </p>
