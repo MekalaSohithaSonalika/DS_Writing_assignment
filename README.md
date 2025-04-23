@@ -61,5 +61,6 @@ The project uses the Our World in Data CO2 emissions dataset, which can be downl
 
 ## Acknowledgments
 
-- Data source: Our World in Data
-- Published: March 2025
+- Developed as part of Introduction to Data Science Course
+- Indian Institute of Technology Gandhinagar
+- By: Sneha Gautam • Sohitha Sonalika • Shivamani Chinthala • Rutuja Swami
