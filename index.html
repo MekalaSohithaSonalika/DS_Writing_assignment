@@ -17,11 +17,8 @@
                     <h1>Global Energy Review 2025</h1>
                 </div>
                 <div class="header-right">
-                    <div class="button-group">
-                        <button id="coalBtn">Global</button>
-                        <button id="naturalGasBtn">India</button>
-                    </div>
-                    <div class="tab-hint">👆 Click these tabs to explore data by region!</div>
+                    <button id="coalBtn">Global</button>
+                    <button id="naturalGasBtn">India</button>
                 </div>
             </div>
         </header>
@@ -31,7 +28,7 @@
             <img src="images/global.jpg" alt="Global energy landscape" class="banner-image">
             <div class="banner-overlay">
                 <h2>Global Energy Review</h2>
-                <p>Comprehensive analysis of global energy trends and emissions</p>
+                <p>Comprehensive analysis of global energy trends and emissions 1750-2023</p>
                 <a href="https://github.com/owid/co2-data" class="download-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
@@ -44,19 +41,30 @@
 
         <main>
             <section class="overview-section">
-                <h3>Overview & Introduction</h3>
-                <p>This dataset spans the years 1750–2023, covering CO₂ emissions, energy consumption, and related metrics for countries worldwide, including 80 variables such as sector-specific emissions, GDP, and energy use. Carbon dioxide emissions are the primary driver of global climate change, and reducing them is critical to mitigating its worst impacts.</p>
-                <p>However, debates persist over how responsibility should be shared across regions, countries, and individuals, shaped by differing metrics like annual emissions by country, per capita emissions, historical contributions, and adjustments for traded goods and services. These perspectives often yield contrasting narratives about accountability and progress.</p>
+                <h3>Overview</h3>
+                <p>This dataset spans the years 1750-2023 and covers data on CO2 emissions, energy consumption, and related metrics for different countries. The data includes 80 variables, including CO2 emissions across multiple sectors, GDP, and energy consumption, among others.</p>
+            </section>
+
+            <section class="introduction-section">
+                <h3>Introduction</h3>
+                <p>
+                    Carbon dioxide emissions are the primary driver of global climate change. It's widely recognized that to avoid the worst impacts of climate change, the world needs to urgently reduce emissions. But, how this responsibility is shared between regions, countries, and individuals has been an endless point of contention in international discussions.
+                </p>
+                <p>
+                    This debate arises from the various ways in which emissions are compared: as annual emissions by country; emissions per person; historical contributions; and whether they adjust for traded goods and services. These metrics can tell very different stories.
+                </p>
             </section>
 
             <hr>
 
-            <section class="introduction-section">
-                <h3>About This Report</h3>
+            <section class="about-section">
+                <h3>About this report</h3>
                 <p>
-                    As the first comprehensive analysis of global energy trends, this edition of the Global Energy Review examines data across all fuels, technologies, regions, and major countries, alongside energy-related CO₂ emissions.</p>
+                    This edition of the <em>Global Energy Review</em> is the first comprehensive depiction of the trends that took place in 2024 across the entire energy sector, covering data for all fuels and technologies, all regions and major countries, and energy-related carbon dioxide (CO<sub>2</sub>) emissions.
+                </p>
                 <p>
-                    The report reveals that energy demand grew faster than average, driven by surging electricity needs in the power sector—nearly doubling overall energy demand due to cooling requirements, electrification trends, and the expansion of data centers. Rising consumption affected all energy sources, including oil, natural gas, coal, renewables, and nuclear power.                </p>
+                    The latest data show that the world's appetite for energy rose at a faster-than-average pace in 2024, resulting in higher demand for all energy sources, including oil, natural gas, coal, renewables and nuclear power. This growth was led by the power sector, with demand for electricity rising almost twice as fast as wider energy demand due to higher demand for cooling, rising consumption by factors: the electrification of forecast and the growth of data centers and
+                </p>
             </section>
 
             <!-- Hypothesis section -->
@@ -65,15 +73,13 @@
                 <p>Based on our analysis of global energy trends, we propose the following hypotheses:</p>
                 
                 <div class="hypothesis-card">
-                    <h4>Hypothesis 1: Acceleration of Renewable Energy Adoption</h4>
-                    <blockquote class="hypothesis-statement">
-                        <p>
-                            Historically, CO2 emissions have been strongly correlated with how much money we have. This is particularly true for low-to-middle incomes. The richer we are, the more CO2 we emit. This is because we use more energy – which often comes from burning fossil fuels.
-                        </p>
-                        <p>
-                            But this relationship no longer holds true at higher incomes. Many countries have managed to achieve economic growth while reducing emissions. They have decoupled the two.
-                        </p>
-                        </blockquote>
+                    <h4>Hypothesis 1: Many countries have decoupled economic growth from CO2 emissions, even if we take offshored production into account</h4>
+                    <p>
+                        Historically, CO2 emissions have been strongly correlated with how much money we have. This is particularly true for low-to-middle incomes. The richer we are, the more CO2 we emit. This is because we use more energy – which often comes from burning fossil fuels.
+                    </p>
+                    <p>
+                        But this relationship no longer holds true at higher incomes. Many countries have managed to achieve economic growth while reducing emissions. They have decoupled the two.
+                    </p>
 
                     <h5>Supporting Evidence:</h5>
                     <ul>
@@ -82,10 +88,33 @@
                         <li>Increasing policy mandates for renewable energy adoption</li>
                         <li>Growth patterns in global energy demand that outpace renewable capacity additions</li>
                     </ul>
+                    <p>
+                        United States, Germany, United Kingdom: These countries show strong negative correlations between GDP per capita and CO₂ emissions per capita. This indicates decoupling — their economies grew while per capita emissions declined.</p>
+                    <p>
+                        China and India: Show very strong positive correlations (~0.95–0.99), meaning GDP growth was closely tied to rising emissions. No decoupling observed — emissions are still strongly linked to economic expansion.
+                    </p>
+                    <p>
+                        World overall: A moderately positive correlation (~0.79) suggests global CO₂ emissions are still largely coupled with economic growth, driven by trends in developing nations.
+                    </p>
+                    <p>
+                        This decoupling is even more pronounced over the past two decades, since the turn of the millennium.
+                    </p>
+                    <p>
+                        Consumption-based emissions continued to rise in countries such as the US throughout the 1990s. But they have dropped a lot since 2005, alongside a rise in GDP. This is true for many more countries, which are shown in the static visualization below. Again, emissions are adjusted for trade.
+                    </p>
+                    <p>
+                        There are two key reasons why emissions have fallen in these countries. First, some countries have managed to decouple energy use and economic growth. GDP has increased while total energy use has remained flat, or even fallen. But the second is the most important: countries are replacing fossil fuels with low-carbon energy. We can produce more energy, without the emissions that used to come with it.
+                    </p>
+                    <p>
+                        It would be wrong to assume that this reduction in emissions in rich countries was only achieved by offshoring production overseas - by transferring emissions to manufacturing economies such as China and India. In the graph we see that consumption-based emissions - which adjust for emissions from goods that are imported or exported - have also fallen.
+                    </p>
+                    <p>
+                        These countries show that economic growth is not incompatible with reducing emissions.
+                    </p>
                 </div>
                 
                 <div class="hypothesis-card">
-                    <h4>Hypothesis 2: Regional Divergence in Emissions Trajectories</h4>
+                    <h4>Hypothesis 2: Global inequalities in CO2 emissions</h4>
                     <blockquote class="hypothesis-statement">
                         By 2030, developed economies will reduce emissions by 25-30% from 2020 levels while developing economies will increase emissions by 35-40%, resulting in net global emissions growth of 8-10%.
                     </blockquote>
@@ -97,10 +126,33 @@
                         <li>Historical patterns of emissions intensity during industrialization phases</li>
                         <li>Current policy commitments and nationally determined contributions</li>
                     </ul>
+
+                    <blockquote class="hypothesis-statement">
+                        <p>High-income countries: CO₂ Share Trend Slope = -0.3354 (% per year)</p>
+                        <p>Upper-middle-income countries: CO₂ Share Trend Slope = 0.2579 (% per year)</p>
+                        <p>Lower-middle-income countries: CO₂ Share Trend Slope = 0.0572 (% per year)</p>
+                        <p>Low-income countries: CO₂ Share Trend Slope = 0.0074 (% per year)</p>
+                    </blockquote>
+
+                    <p>
+                        Positive slope: Emission share is increasing over time (e.g., Lower-income countries).                    
+                    </p>
+                    <p>
+                        Negative slope: Emission share is declining, often seen in High-income countries due to decarbonization or outsourcing.
+                    </p>
+                    <p>
+                        The world’s poorest are likely to be the most vulnerable. the poorest have contributed least to the problem through their emissions.
+                    </p>
+                    <p>
+                        The average person in high-income countries emits more than 30 times as much as those in low-income countries.
+                    </p>
+                    <p>
+                        High and upper-middle income countries account for a much larger share of emissions than their population. Despite being home to just under half of the world population, they emit more than 80% of world’s CO2.
+                    </p>
                 </div>
                 
                 <div class="hypothesis-card">
-                    <h4>Hypothesis 3: Sectoral Transformation Timelines</h4>
+                    <h4>Hypothesis 3: Analysis of Different ways to tackle the problem of increasing emission of CO2</h4>
                     <blockquote class="hypothesis-statement">
                         Electricity generation will decarbonize three times faster than transportation and five times faster than industry through 2035, creating significant sectoral imbalances in emissions reduction trajectories.
                     </blockquote>
@@ -112,6 +164,30 @@
                         <li>Cost differentials for decarbonization across sectors</li>
                         <li>Policy emphasis on electricity sector transformation compared to other sectors</li>
                     </ul>
+                    <p>
+                        1 means perfect positive correlation
+                    </p>
+                    <p>
+                        -1 means perfect negative correlation
+                    </p>
+                    <p>
+                        0 means no linear correlation
+                    </p>
+                    <p>
+                        This suggest that in what ways we can reduce carbon emissions:
+                    </p>
+                    <p>
+                        Shift Away from Fossil Fuels: Strongest emitters: Oil, Coal, Gas
+                    </p>
+                    <p>
+                        Improve Energy Efficiency : Reduce co2_per_unit_energy
+                    </p>
+                    <p>
+                        Address Methane and Other GHGs : tackling methane (agriculture, waste) matters too
+                    </p>
+                    <p>
+                        Policy Focus on High-Population Emitters : Since population correlates strongly with total CO₂, population-dense, fossil-fuel-heavy countries should be prioritized in emission-reduction strategies
+                    </p>
                 </div>
             </section>
 
