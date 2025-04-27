@@ -2,6 +2,8 @@
 
 An interactive visualization of global CO2 emissions and energy consumption trends from 1750-2023.
 
+[DS Writing Assignment Website](https://mekalasohithasonalika.github.io/DS_Writing_assignment/)
+
 ## Getting Started
 
 These instructions will help you get the project running on your local machine for development and testing purposes.
